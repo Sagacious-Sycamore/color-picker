@@ -1,32 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
+
 import tinycolor from 'tinycolor2';
 import ColorFamilyView from './ColorFamilyView.js';
 import ColorFamilyInfoView from './ColorFamilyInfoView.js';
 import CreateYourOwn from './CreateYourOwn.js';
 import FilterBar from './FilterBar.js';
 import {Button, Grid} from 'react-bootstrap';
-import Templates from './Templates.js'
+import Templates from './Templates.js';
 import MiniGame from './miniGame.js';
 import MatchGame from './MatchGame.js';
 import ColorNameMatchGame from './ColorNameMatchGame.js';
 
-// emm's testing data for templates
-var colors = {
-  c1: '#87CA80',
-  c2: '#95D68E',
-  c3: '#E6ACB6',
-  c4: '#E7BEAF',
-  c5: '#E9D9B2',
-}
-
 var sortObj = function (obj) {
-  return Object.keys(obj).sort(function(a,b){return obj[b]-obj[a]})
-}
-
-//this app relies heavily on React Bootstrap
-//https://react-bootstrap.github.io/ for the documentation
+  return Object.keys(obj).sort(function(a, b) {
+    return obj[b] - obj[a];
+  });
+};
 
 class App extends React.Component {
   constructor(props) {

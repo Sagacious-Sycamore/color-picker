@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/witty-willow/color-picker.git"
+    "url": "git+https://github.com/Sagacious-Sycamore/color-picker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/witty-willow/color-picker/issues"
+    "url": "https://github.com/Sagacious-Sycamore/color-picker/issues"
   },
   "babel": {
     "presets": [
@@ -22,7 +22,7 @@
       "es2015"
     ]
   },
-  "homepage": "https://github.com/witty-willow/color-picker#readme",
+  "homepage": "https://github.com/Sagacious-Sycamore/color-picker#readme",
   "devDependencies": {
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.9",
