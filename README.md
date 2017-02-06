@@ -2,6 +2,8 @@
 
 Forked from [Witty-Willow](https://github.com/witty-willow/color-picker). 
 
+<img src="./examples/main.png">
+
 ## Table of Contents
 
 1. [Team](#team)
@@ -41,9 +43,14 @@ From original fork, following was implemented:
 From within the root directory:
 
 ```
-npm install -g bower
 npm install
-bower install
+npm run start-webpack
+```
+
+Then, in a new terminal window: 
+
+```
+npm start
 ```
 
 ## Roadmap
